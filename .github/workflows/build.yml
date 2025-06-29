@@ -15,7 +15,7 @@ jobs:
       - name: Build Kernel
         uses: dabao1955/kernel_build_action@main
         with:
-          kernel-url: https://github.com/gta9pwifi-dev/android_kernel_samsung_gta9p-common
+          kernel-url: https://github.com/gta9pwifi-dev/android_kernel_samsung_sm6375-common
           kernel-branch: lineage-22.2
           config: vendor/gta9pwifi_eur_open_defconfig
           arch: arm64
@@ -24,4 +24,3 @@ jobs:
           android-version: 11-qpr3-s1
           aosp-clang-version: r383902b1
           disable-lto: true
-          anykernel3: true
