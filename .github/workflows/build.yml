@@ -16,7 +16,7 @@ jobs:
         uses: dabao1955/kernel_build_action@main
         with:
           kernel-url: https://github.com/gta9pwifi-dev/android_kernel_samsung_sm6375-common
-          kernel-branch: lineage-22.2
+          kernel-branch: oem
           config: vendor/gta9pwifi_eur_open_defconfig
           arch: arm64
           aosp-gcc: true
