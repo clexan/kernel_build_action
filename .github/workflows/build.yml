@@ -19,7 +19,7 @@ jobs:
           kernel-branch: oem
           config: vendor/gta9pwifi_eur_open_defconfig
           arch: arm64
-          aosp-gcc: true
+          aosp-gcc: false
           aosp-clang: true
           android-version: 11-qpr3-s1
           aosp-clang-version: r383902b1
